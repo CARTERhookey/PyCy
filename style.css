@@ -90,12 +90,6 @@ details {
   border-radius: 5px;
   background-color: #f3f3f3;
   font-family: Roboto, Oswald;
-
-  animation-duration: .45s;
-  animation-name: open;
-  animation-timing-function: ease;
-  animation-delay: .15s;
-  animation-iteration-count: 1;
 }
 
 @keyframes open {
@@ -115,6 +109,12 @@ summary {
   font-weight: bold;
   cursor: pointer;
   font-family: Roboto, Oswald;
+  
+  animation-duration: .45s;
+  animation-name: open;
+  animation-timing-function: ease;
+  animation-delay: .15s;
+  animation-iteration-count: 1;
 }
 
 /* Credits links */
