@@ -92,25 +92,22 @@ details {
   font-family: Roboto, Oswald;
 
   animation-duration: .45s;
-  animaton-name: open;
+  animation-name: open;
   animation-timing-function: ease;
   animation-delay: .15s;
   animation-iteration-count: 1;
 }
 
-@keyframes open{
-  0%{
-    
+@keyframes open {
+  0% {
   }
-  50%{
-    scale: 2;
-    transform: rotate(0)
+  50% {
+    transform: rotate(0) scale(2);
     border-radius: 50%;
   }
-  100%{
-    transform: rotate(360);
+  100% {
+    transform: rotate(360deg) scale(1);
     border-radius: 50%;
-    scale: 1;
   }
 }
 
