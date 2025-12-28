@@ -90,6 +90,28 @@ details {
   border-radius: 5px;
   background-color: #f3f3f3;
   font-family: Roboto, Oswald;
+
+  animation-duration: .45s;
+  animaton-name: open;
+  animation-timing-function: ease;
+  animation-delay: .15s;
+  animation-iteration-count: 1;
+}
+
+@keyframes open{
+  0%{
+    
+  }
+  50%{
+    scale: 2;
+    transform: rotate(0)
+    border-radius: 50%;
+  }
+  100%{
+    transform: rotate(360);
+    border-radius: 50%;
+    scale: 1;
+  }
 }
 
 summary {
